@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log*
+*.tgz
+.sqlcockpit.conf
+*.tmp
+.DS_Store
+coverage/

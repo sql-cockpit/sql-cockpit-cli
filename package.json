@@ -1,0 +1,28 @@
+{
+  "name": "@sql-cockpit/cli",
+  "version": "0.1.0",
+  "description": "The official SQL Cockpit command-line tool for your portal account, team, Agents, instances and support tickets",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "sqlcockpit": "bin/sqlcockpit.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/args.test.js test/config.test.js test/output.test.js test/client.test.js test/commands.test.js test/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sql-cockpit/sql-cockpit-cli.git"
+  },
+  "license": "MIT"
+}
